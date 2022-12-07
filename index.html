@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Alan Flores Portfolio</title>
+</head>
+
+<body>
+    <header class="indexHeader">
+        <div class="indexHeader__mainImage">
+            <figure>
+                <img src="./assets/img/personal/main.png" alt="main">
+            </figure>
+        </div>
+        <div class="indexHeader__name">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Alan Amador Flores Fiscal</span>
+                <span class="heading-primary--sub">Ingeniero en Software</span>
+            </h1>
+        </div>
+    </header>
+    <main>
+        <!-- Greeting -->
+        <div class="greeting-section">
+            <figure class="pac-man pac-man--l">
+                <img src="./assets/img/Pacman.png" alt="">
+            </figure>
+            <p class="fs-sm">¡Hola! Es un placer conocerte</p>
+            <figure class="pac-man">
+                <img src="./assets/img/Pacman.png" alt="" class="flip-horizontally ">
+            </figure>
+        </div>
+
+        <!-- About me categories -->
+        <section class="about-me px-3 py-3 section--bg">
+            <h2 class="text-center text-bold fs-lg">Categorias</h2>
+            <div class="d-flex justify-evenly my-5">
+                <article class="about-me__category mx-2">
+                    <figure>
+                        <img src="./assets/img/studyCard.jpg" alt="">
+                    </figure>
+                    <h2>Estudios</h2>
+                    <a href="">Ver</a>
+                </article>
+                <article class="about-me__category mx-2">
+                    <figure>
+                        <img src="./assets/img/experienceCard.jpg" alt="">
+                    </figure>
+                    <h2>Experiencia</h2>
+                    <a href="">Ver</a>
+                </article>
+                <article class="about-me__category mx-2">
+                    <figure>
+                        <img src="./assets/img/personal/Me1.jpg" alt="">
+                    </figure>
+                    <h2>Sobre mí</h2>
+                    <a href="">Ver</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Email form -->
+        <div class="email-sender">
+            <figure class="pac-man pac-man--l">
+                <img src="./assets/img/Pacman.png" alt="">
+            </figure>
+            <form class="d-flex flex-direction-col">
+                <h2 class="txt-dark txt-align-center fs-md mb-2">Contáctame</h2>
+                <label for="input-correo">Correo:</label>
+                <input id="input-correo" type="email" name="email" placeholder="Email">
+                <label for="input-mensaje">Mensaje:</label>
+                <textarea id="input-mensaje" rows="6" cols="32" name="mensaje"
+                    placeholder="Escribe tu mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            <figure class="pac-man">
+                <img src="./assets/img/Pacman.png" alt="" class="flip-horizontally ">
+            </figure>
+        </div>
+
+        <!-- Footer -->
+        <footer class="section--bg">
+            <div>
+                <p class="fs-md txt-light txt-align-center mb-5">Vive, aprende y crece en todos los ámbitos</p>
+                <nav class="social-networks">
+                    <a href="" class="fa fa-facebook"></a>
+                    <a href="" class="fa fa-instagram"></a>
+                    <a href="" class="fa fa-linkedin"></a>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
