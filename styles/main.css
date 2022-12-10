@@ -299,10 +299,20 @@ footer p{
     border-radius: 2rem;
 }
 
+table tr:first-child{
+    background-image: linear-gradient(
+        to right bottom, rgba(0, 70, 127, 0.9), rgba(165, 204, 130, 0.9)
+        );
+
+    color: #efefef;
+}
+
+
 td, th{
     padding: 1rem;
     border: 1px solid black;
 }
+
 
 /* Text */
 
@@ -548,6 +558,25 @@ p{
     margin-bottom: 2rem;
 }
 
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 1.25rem;
+}
+
+.mt-3{
+    margin-top: 1.5rem;
+}
+
+.mt-4{
+    margin-top: 1.75rem;
+}
+
+.mt-5{
+    margin-top: 2rem;
+}
 
 /* Padding */
 .p-1{
