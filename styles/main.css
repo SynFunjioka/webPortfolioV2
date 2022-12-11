@@ -77,11 +77,11 @@
 }
 
 main > div{
-    height: 80vh;
+    height: 37rem;
 }
 
 .about-me, footer{
-    height: 80vh;
+    height: 37rem;
 }
 
 .greeting-section{
@@ -281,7 +281,7 @@ footer p{
 
     display: flex;
     flex-direction: column;
-    gap: 0.5rem 0;
+    gap: 1rem 0;
 }
 
 .estudios h2{
@@ -291,6 +291,10 @@ footer p{
 .estudios p {
     padding: 0 1rem 0 1rem;
     line-height: 1.5rem;
+}
+
+.estudios iframe{
+    align-self: center;
 }
 
 .contenido{

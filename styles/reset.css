@@ -9,8 +9,8 @@ html {
 	font-size: 16px;
 	line-height: 1.3;
 	font-family: 'Roboto', sans-serif;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	/* -ms-text-size-adjust: 100%; */
+	/* -webkit-text-size-adjust: 100%; */
 }
 
 body{
@@ -22,12 +22,12 @@ a, button {
 	border: none;
 	text-decoration: none;
 	cursor: pointer;
-	-webkit-text-decoration-skip: objects;
+	/* -webkit-text-decoration-skip: objects; */
 }
 
-button::-moz-focus-inner {
+/* button::-moz-focus-inner {
 	border: 0;
-}
+} */
 
 a:active,
 a:hover,
